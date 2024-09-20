@@ -6,11 +6,11 @@ The focus of this project is building an ETL pipeline using Python, Pandas, JSON
 
 ## Data
 
-The data initially consists of two Excel files ('contacts.xlsx', 'crowdfunding.xlsx'). 
+The data initially consists of two Excel files ('contacts.xlsx', 'crowdfunding.xlsx').
 
-The data from these files is extracted into four CSV files ('campaign.csv', 'category.csv', 'subcategory.csv', 'contacts.csv'). These CSV are located in the Resources directory of the GitHub repository. 
+The data from these files is extracted into four CSV files ('campaign.csv', 'category.csv', 'subcategory.csv', 'contacts.csv'). These CSV are located in the Resources directory of the GitHub repository.
 
-There is also a SQL table schema file ('crowdfunding_db_schema.sql') that was created to import the CSV files into a PostgreSQL database (crowdfunding_db). the SQL file is located in the Resources directory. 
+There is also a SQL table schema file ('crowdfunding_db_schema.sql') that was created to import the CSV files into a PostgreSQL database (crowdfunding_db). the SQL file is located in the Resources directory.
 
 PNG screenshot files of  the ERD and PostgreSQL database are located in the Images directory of the repository.
 
@@ -24,7 +24,7 @@ PostgreSQL was used to create table schemata for the crowdfunding_db database.
 
 ## Results
 
-The results show a detailed outline of the crowdfunding operation. First we can see the transformed Pandas DataFrames in the IPYNB file. Those files were exported to CSV files which are located in the CSV_output directory of the repository. 
+The results show a detailed outline of the crowdfunding operation. First we can see the transformed Pandas DataFrames in the IPYNB file. Those files were exported to CSV files which are located in the CSV_output directory of the repository.
 
 Once those CSV files were created an ERD was made on QuickDBD:
 
@@ -32,7 +32,7 @@ Once those CSV files were created an ERD was made on QuickDBD:
 
 Here we can the the relationships between the tables. The above PNG file is also located in the Images directory of the repository.
 
-The ERD helped greatly in creating the crowdfunding_db database with PostgreSQL. 
+The ERD helped greatly in creating the crowdfunding_db database with PostgreSQL.
 
 ![1726786724496](image/README/1726786724496.png)
 
@@ -71,6 +71,8 @@ Class materials were used extensively for this assignment, as well as:
 ## Usage
 
 CSV files are located in the CSV_output directory.
+
+SQL table schemata file is located in the Resources directory.
 
 PNG files are located in the Images directory.
 
