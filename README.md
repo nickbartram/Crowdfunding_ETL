@@ -74,6 +74,6 @@ CSV files are located in the CSV_output directory.
 
 PNG files are located in the Images directory.
 
-The image directory contains links to the README images.
+The image\README directory contains links to the README images.
 
 The main IPYNB script file ('ETL_Mini_Project_NArora_NBartram.ipynb') is located in the main directory ('Crowdfunding_ETL').
